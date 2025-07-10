@@ -1,9 +1,10 @@
-const socket = io('https://your-render-backend-url'); // Change this
+const socket = io('https://webrtc-server-1gj1.onrender.com');
+ // Change this
 
 const localVideo = document.getElementById('localVideo');
 const remoteVideo = document.getElementById('remoteVideo');
 
-let localStream;
+let localStream;  
 let peerConnection;
 
 const config = {
